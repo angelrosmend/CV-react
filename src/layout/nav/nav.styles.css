@@ -2,13 +2,14 @@
 .nav{
     flex-basis: 25%;
     max-height: 100vh;
-    background-color: rgb(15, 10, 10);
+    background-color: var(--mainBlack);
     display: flex;
     flex-direction: column;
-    color: white;
+    color: var(--mainWhite);
     padding-top: 3rem;
     position: sticky;
     top: 0;
+    border-right: 2px solid var(--mainRed);
 }
 .photo{
     display: flex;
@@ -17,7 +18,7 @@
 .photo img{
     width: 175px;
     border-radius: 50%;
-    border: 7px solid rgb(94, 85, 85);
+    border: 7px solid var(--mainGrey);
     margin: auto;
 }
 .links{
@@ -27,7 +28,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 li{
     list-style: none;
@@ -37,7 +38,27 @@ li{
     font-family: 'Oswald', sans-serif;
     letter-spacing: 3px;
     text-decoration: none;
-    color: white;
+    color: var(--mainWhite);
     font-size: 1rem;
     margin: 2.5rem 2rem;
+}
+
+.link a:hover{
+    color: var(--mainGrey);
+
+}
+
+.switch{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3rem;
+    border: 3px solid var(--mainWhite);
+    border-radius: 10px;
+}
+
+.english, .spanish{
+    background: transparent;
+    border: none;
+    color: var(--mainWhite);
+    padding: 12px 15px;
 }

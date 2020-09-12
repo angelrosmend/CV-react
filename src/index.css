@@ -1,3 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --mainWhite: rgb(223, 223, 223);
+  --mainRed: rgb(175, 0, 15); 
+  --mainGrey: rgb(96, 101, 107);
+  --mainBlack: rgb(34, 29, 29);
+}
+
 html {
   scroll-behavior: smooth;
 }

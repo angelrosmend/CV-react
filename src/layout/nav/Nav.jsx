@@ -14,7 +14,11 @@ function Nav() {
                 <li className="link"><a href="#education">EDUCATION</a></li>
                 <li className="link"><a href="#skills">SKILLS</a></li>
                 <li className="link"><a href="#interests">INTERESTS</a></li>
-            </ul>     
+            </ul>  
+            <div className="switch">
+                <button className="english">Ingles</button>
+                <button className="spanish">Espanish</button>
+            </div>   
         </div>
     )
 }

@@ -7,13 +7,14 @@ function About() {
             <h3>Full-stack developer</h3>
 
             <div className="info">
-            <p className="addrese"><i class="fas fa-house-user"></i>  Aristobulo del valle 1013, Buenos Aires</p>
-            <p className="phone"><i class="fas fa-mobile-alt"></i>  +54 112044586</p>
-            <p className="email"><i class="fas fa-envelope-open-text"></i>  angelrosmend@gmail.com</p>
+                <h5><i class="fas fa-house-user"></i>  Aristobulo del valle 1013, Buenos Aires</h5>
+                <h5><i class="fas fa-mobile-alt"></i>  +54 112044586</h5>
+                <h5><i class="fas fa-envelope-open-text"></i>  angelrosmend@gmail.com</h5>
 
-            <p className="about-me">Experienced Web Developer adept in an assortment of skills focused
+            <p>Experienced Web Developer adept in an assortment of skills focused
                 mainly on JavaScript technologies such as ReactJS, Vue, Redux,
-                NodeJS, Express and MongoDB</p>
+                NodeJS, Express and MongoDB
+            </p>
             </div>
 
             <ul className="contact">
