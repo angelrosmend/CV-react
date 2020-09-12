@@ -1,20 +1,24 @@
-.home{
-    display: flex;
-    width: 100%;
-    height: 100vh;
-}
 /*NAV*/
 .nav{
-    width: 25%;
+    flex-basis: 25%;
+    max-height: 100vh;
     background-color: rgb(15, 10, 10);
     display: flex;
     flex-direction: column;
     color: white;
     padding-top: 3rem;
+    position: sticky;
+    top: 0;
 }
 .photo{
     display: flex;
     flex: 1.5;
+}
+.photo img{
+    width: 175px;
+    border-radius: 50%;
+    border: 7px solid rgb(94, 85, 85);
+    margin: auto;
 }
 .links{
     padding: 0;
@@ -30,18 +34,10 @@ li{
     margin: auto;
 }
 .link a{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 2.5rem 2rem;
-}
-.photo img{
-    width: 150px;
-    border-radius: 50%;
-    border: 7px solid rgb(94, 85, 85);
-    margin: auto;
-}
-/*FORM*/
-.form{
-    width: 75%;
 }

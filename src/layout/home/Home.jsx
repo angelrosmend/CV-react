@@ -1,13 +1,14 @@
 import React, { Fragment } from 'react'
-import '../css/styles.css'
-import Nav from './Nav'
+import './home.styles.css'
+import Nav from '../nav/Nav'
+import Form from '../form/Form'
 
 
 function Home() {
     return (
         <div className="home">
             <Nav/>
-            <div className="form"></div>
+            <Form/>
         </div>
     )
 }
