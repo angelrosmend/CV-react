@@ -1,0 +1,73 @@
+[
+    {
+        "id": "perfil",
+        "name": "Angel Rosales",
+        "title": "Full-stack developer",
+        "addrese": "Aristobulo del valle 1013, Buenos Aires",
+        "phone": "+54 112044586",
+        "email":"angelrosmend@gmail.com",
+        "about": "Desarrollador web adepto en variedad de habilidades relacionadas en tecnologias JavaScript tales como ReactJS, Vue, NodeJS, Express y MongoDB."
+    },
+    {
+        "id":"experincia",
+        "experiences":[
+            {
+                "id":1,
+                "title":"Full-Stack developer - Freelance",
+                "company": "Upwork, Fiver",
+                "start": "Septiembre 2019",
+                "end": "Actual",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quo vel magni numquam! Suscipit natus quaerat perspiciatis corporis consequuntur sequi quas magni amet deleniti earum minima tempore, odit quam animi."
+            },
+            {
+                "id":2,
+                "title":"Front-end Developer",
+                "company": "Tiendit",
+                "start": "Enero 2020",
+                "end": "Mayo 2020",
+                "description": "En esta startup, la tarea principal era el desarrollo de la interfaz de usuario implementando la metodologia SPA(Single page Application) haciendo uso de la libreria de codigo de JavaScript ReactJS, brindando una solución adecuada y actualizada para cada proyecto."
+            }
+        ]
+    },
+    {
+        "id":"educacion",
+        "studies":[
+            {
+                "id":1,
+                "title":"Profssional Full-Stack developer",
+                "institute":"Universidad Tecnologica Nacional",
+                "city": "Buenos Aires",
+                "start":"Febrero 2020",
+                "end": "Julio 2020",
+                "description": "Diplomatura de extensión universitaria compuesta por tres cursos enfocados en aplicar y adaptar los conocimientos en programación web al desarrollo de aplicaciones SPA explotando las ventajas de React JS en cuanto al flujo de datos, integrando la plataforma al backend a través de una api rest desarrollada con Node JS."
+            },
+            {
+                "id":2,
+                "title": "Programa de ingles como lengua extranjera",
+                "institute":"Centro Venezolano Americano",
+                "city": "Caracas",
+                "start":"September 2015",
+                "end": "July 2016",
+                "description": "Curso de ingles diseñado para llevar los conocimientos basicos en ingles a un nivel avanzado, donde al finalizar, el estudiante es proficiente en escritura, lectura y capaz de mantener una conversación fluída."
+            },
+            {
+                "id":3,
+                "title":"Antropologia",
+                "institute":"Universidad Central de Venezuela",
+                "city": "Caracas",
+                "start":"Octubre 2013",
+                "end": "Julio 2015",
+                "description": "Estudios sobre los aspectos físicos y las manifestaciones sociales y culturales de las comunidades humanas."
+            }
+
+        ]
+    },
+    {
+        "id":"Habilidades"
+    },
+    {
+        "id":"Intereses",
+        "title": "Artes",
+        "description":"De niño siempre senti gran afición por la musica y la pintura, siendo actividades que practico en tiempo libre, la habilidad de dibujo y pintura me ha permitido un buen desempeño en el area de desarrollo web front-end, aplicando conocimintos de diseño o teoria del color, haciendo que los proyectos sean intuitivos y agradables a la vista del usuario"
+    }
+]
