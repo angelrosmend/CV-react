@@ -7,9 +7,9 @@ function About() {
             <h3>Full-stack developer</h3>
 
             <div className="info">
-                <h5><i class="fas fa-house-user"></i>  Aristobulo del valle 1013, Buenos Aires</h5>
-                <h5><i class="fas fa-mobile-alt"></i>  +54 112044586</h5>
-                <h5><i class="fas fa-envelope-open-text"></i>  angelrosmend@gmail.com</h5>
+                <h5><i className="fas fa-house-user"></i>  Aristobulo del valle 1013, Buenos Aires</h5>
+                <h5><i className="fas fa-mobile-alt"></i>  +54 112044586</h5>
+                <h5><i className="fas fa-envelope-open-text"></i>  angelrosmend@gmail.com</h5>
 
             <p>Experienced Web Developer adept in an assortment of skills focused
                 mainly on JavaScript technologies such as ReactJS, Vue, Redux,

@@ -1,0 +1,23 @@
+.switch{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 3rem;
+    border: 3px solid var(--mainWhite);
+    border-radius: 10px;
+}
+
+.on{
+    text-transform: uppercase;
+    background: var(--mainWhite);
+    border: none;
+    color: var(--mainBlack);
+    padding: 12px 15px;
+}
+
+.off{
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    color: var(--mainWhite);
+    padding: 12px 15px;
+}

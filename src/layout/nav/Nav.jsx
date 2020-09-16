@@ -1,6 +1,7 @@
 import React from 'react'
 import './nav.styles.css'
 import photo from '../../img/photo.jpeg'
+import SwitchLanguages from '../../components/SwitchLanguages'
 
 function Nav() {
     return (
@@ -15,10 +16,7 @@ function Nav() {
                 <li className="link"><a href="#skills">SKILLS</a></li>
                 <li className="link"><a href="#interests">INTERESTS</a></li>
             </ul>  
-            <div className="switch">
-                <button className="english">Ingles</button>
-                <button className="spanish">Espanish</button>
-            </div>   
+            <SwitchLanguages/>
         </div>
     )
 }

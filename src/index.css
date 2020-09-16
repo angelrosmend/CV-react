@@ -1,12 +1,15 @@
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 :root{
+  --grdWhite: linear-gradient(45deg, rgb(201, 201, 201) 35%, rgb(238, 238, 238));
+  --grdBlack: linear-gradient(45deg, rgb(22, 20, 20), rgb(34, 29, 29)60%, rgb(59, 58, 58));;
   --mainWhite: rgb(223, 223, 223);
   --mainRed: rgb(175, 0, 15); 
-  --mainGrey: rgb(96, 101, 107);
+  --mainGrey: rgb(107, 96, 96);
   --mainBlack: rgb(34, 29, 29);
 }
 

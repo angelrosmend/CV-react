@@ -2,7 +2,7 @@
 
 /*FORM*/
 .form-wrapper{
-    background-color: var(--mainWhite);
+    background: var(--grdWhite);
     width: 75%;
 }
 .info p, .box p{
