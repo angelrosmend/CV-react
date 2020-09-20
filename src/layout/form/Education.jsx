@@ -3,10 +3,10 @@ import './form.styles.css'
 
 
 function Education(props) {
-    const {name, education } = props
+    const {nav, education } = props
     return (
-        <div id="education" className="education">
-            <h2>{name.id}</h2>
+        <div id={nav.id} className="education">
+            <h2>{nav.id}</h2>
             {education.map( studies => {
               return(
                 <div key={studies.id} className="box">

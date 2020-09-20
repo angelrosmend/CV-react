@@ -15,7 +15,7 @@
                 "company": "Upwork, Fiver",
                 "start": "Septiembre 2019",
                 "end": "Actual",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quo vel magni numquam! Suscipit natus quaerat perspiciatis corporis consequuntur sequi quas magni amet deleniti earum minima tempore, odit quam animi."
+                "description": "Escribir y editar código HTML, CSS, y JavaScript, implementando el uso de frameworks y librarias tales como React y Vue, brindando soluciones tecnológicas para sitios web y aplicaciones, basado en necesidades expecificas  para cada cliente."
             },
             {
                 "id":2,
@@ -23,14 +23,14 @@
                 "company": "Tiendit",
                 "start": "Enero 2020",
                 "end": "Mayo 2020",
-                "description": "En esta startup, la tarea principal era el desarrollo de la interfaz de usuario implementando la metodologia SPA(Single page Application) haciendo uso de la libreria de codigo de JavaScript ReactJS, brindando una solución adecuada y actualizada para cada proyecto."
+                "description": "Tiendit ofrece el desarrollo de soluciones tecnologicas para promover negocios locales y a emprendedores. En esta startup la tarea principal era el desarrollo de interfaces de usuario implementando la metodologia SPA(Single page Application) haciendo uso de la libreria de codigo de JavaScript ReactJS, brindando una solución adecuada y actualizada, siendo responsable por la arquitectura e integración continua de futuras aplicaciones "
             }
         ],
         "education":[
             {
                 "id":1,
-                "title":"Profssional Full-Stack developer",
-                "institute":"Universidad Tecnologica Nacional",
+                "title":"Professional Full-Stack developer",
+                "institute":"Universidad Tecnológica Nacional",
                 "city": "Buenos Aires",
                 "start":"Febrero 2020",
                 "end": "Julio 2020",
@@ -66,7 +66,7 @@
     "navlinks": [
         {"id": "perfil"},
         {"id": "experiencia"},
-        {"id": "educacion"},
+        {"id": "educación"},
         {"id": "conocimientos"},
         {"id": "intereses"}
     ]

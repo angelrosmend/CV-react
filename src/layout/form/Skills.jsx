@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Skills({name}) {
+function Skills({nav}) {
     return (
-        <div id="skills" className="skills">
-            <h2>{name.id}</h2>
+        <div id={nav.id} className="skills">
+            <h2>{nav.id}</h2>
             <div className="skills-icon">
             <i className="fab fa-html5"></i>
             <i className="fab fa-css3-alt"></i>

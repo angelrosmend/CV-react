@@ -16,7 +16,7 @@
             "company": "Upwork, Fiver",
             "start": "September 2019",
             "end": "Current",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quo vel magni numquam! Suscipit natus quaerat perspiciatis corporis consequuntur sequi quas magni amet deleniti earum minima tempore, odit quam animi."
+            "description": "Wrote and edited web code using HTML, CSS, and JavaScript, as well making use of frameworks and libraries such as React and Vue, providing web solutions and develop websites and web applications based on specific business needs for promotions, presentations, customer service and online services."
         },
         {
             "id":2,
@@ -24,13 +24,13 @@
             "company": "Tiendit",
             "start": "January 2020",
             "end": "May 2020",
-            "description": "In this startup the main task was to develop the user interface implementing the SPA(Single Page Application) approach, thus making use of JavaScript's most popular library ReactJS, providing suitable and up-to-date solutions for each challenge"
+            "description": "In this startup the main task was to develop the user interface implementing the SPA(Single Page Application) approach, thus making use of JavaScript's most popular library ReactJS, providing suitable and up-to-date solutions.\n Responsible for the architecture and Continuous Integration of future front-end applications."
         }
     ],
     "education":[
         {
             "id":1,
-            "title":"Profssional Full-Stack developer",
+            "title":"Professional Full-Stack developer",
             "institute":"Universidad Tecnologica Nacional",
             "city": "Buenos Aires",
             "start":"February 2020",

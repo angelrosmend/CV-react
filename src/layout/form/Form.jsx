@@ -15,11 +15,11 @@ function Form() {
     
     return (
         <div className="form-wrapper">
-            <About about={about}/>
-            <Experience name={Exp} experiences={experiences}/>
-            <Education name={Ed} education={education}/>
-            <Skills name={Sk}/>
-            <Interests name={Int}interests={interests}/>
+            <About nav={Ab} about={about}/>
+            <Experience nav={Exp} experiences={experiences}/>
+            <Education nav={Ed} education={education}/>
+            <Skills  nav={Sk}/>
+            <Interests nav={Int} interests={interests}/>
         </div>
     )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
 
 
-function About({about}) {
+function About(props) {
+ const {nav, about} = props;
  const {name, title, addrese, phone, email, description } = about;
     return (
-            <div className="about" >
+            <div id={nav.id} className="about" >
             <h1>{name}</h1>
             <h3>{title}</h3>
 
@@ -18,16 +19,16 @@ function About({about}) {
 
             <ul className="contact">
                 <li className="icon">
-                    <a className="contact-icon" href="#"><i  className="fab fa-linkedin-in"></i></a>
+                    <a className="contact-icon" href="https://www.linkedin.com/in/angelrosmend" target='_blank' ><i  className="fab fa-linkedin-in"></i></a>
                 </li>
                 <li className="icon">
-                <a className="contact-icon" href="#"><i className="fab fa-github"></i></a>
+                <a a className="contact-icon" href="https://github.com/angelrosmend" target='_blank'><i className="fab fa-github"></i></a>
                 </li>
                 <li className="icon">
-                    <a className="contact-icon" href="#"><i className="fab fa-gitlab"></i></a>
+                    <a className="contact-icon" href="https://gitlab.com/angelrosmend" target='_blank'><i className="fab fa-gitlab"></i></a>
                 </li>
                 <li className="icon">
-                <a className="contact-icon" href="#"><i className="fab fa-facebook"></i></a>
+                <a className="contact-icon" href="https://www.instagram.com/angelrosmend" target='_blank'><i className="fab fa-instagram"></i></a>
                 </li>
             </ul>
         </div>

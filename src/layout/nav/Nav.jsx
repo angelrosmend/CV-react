@@ -6,7 +6,7 @@ import LanguageContext from '../../context/LanguageContext'
 
 const Nav = () => {
    const { language } = useContext(LanguageContext)
-   const { navlinks } = language
+   const { navlinks } = language;
 
     return (
         <div className='nav'>
@@ -15,7 +15,7 @@ const Nav = () => {
             </figure>
             <ul className='links'>
                {navlinks.map( navlink => {
-                    return(<li className="link" key={navlink.id}>{navlink.id}</li>)
+                    return(<li className="link" key={navlink.id}><a href={`#${navlink.id}`}>{navlink.id}</a></li>)
                 })}
             </ul>  
             <SwitchLanguages/>

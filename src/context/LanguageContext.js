@@ -17,8 +17,6 @@ export const LanguageProvider = (props) => {
         setClicked(true)
     }
 
-
-
     return(
         <LanguageContext.Provider value={{language,clicked, selectEsp, selectEng}}>
             {props.children}

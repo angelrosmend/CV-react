@@ -1,10 +1,10 @@
 import React from 'react'
 
 function Interests(props) {
-    const {name, interests } = props
+    const {nav, interests } = props
     return (
-        <div id="interests" className="interests">
-            <h2>{name.id}</h2>
+        <div id={nav.id} className="interests">
+            <h2>{nav.id}</h2>
             {interests.map( interest => {
                 return(
                     <div key={interest.id} className="box">

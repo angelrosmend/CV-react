@@ -1,10 +1,10 @@
 import React from 'react'
 
 function Experience(props) {
-    const { name, experiences} = props;
+    const { nav, experiences} = props;
     return (
-        <div id="experience" className="experience">
-            <h2>{name.id}</h2>
+        <div id={nav.id} className="experience">
+            <h2>{nav.id}</h2>
             {experiences.map( experience => {
                 return( 
                     <div key={experience.id} className="box">
