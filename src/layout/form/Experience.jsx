@@ -11,7 +11,7 @@ function Experience(props) {
                         <h4>{experience.title}</h4>
                         <h5>{experience.company} | 
                             {experience.start} - 
-                            <i>{experience.end}</i>
+                          <i>{experience.end}</i>
                         </h5>
                         <p>{experience.description}</p>
                     </div>

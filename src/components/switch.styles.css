@@ -6,18 +6,19 @@
     border-radius: 10px;
 }
 
-.on{
-    text-transform: uppercase;
-    background: var(--mainWhite);
+button{
+    width: 50%;
     border: none;
-    color: var(--mainBlack);
+    font-weight: bold;
     padding: 12px 15px;
+    text-transform: uppercase;
+}
+.on{
+    background: var(--mainWhite);
+    color: var(--mainBlack);
 }
 
 .off{
-    text-transform: uppercase;
     background: transparent;
-    border: none;
     color: var(--mainWhite);
-    padding: 12px 15px;
 }

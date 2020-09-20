@@ -4,16 +4,17 @@ import './switch.styles.css'
 
 function SwitchLanguages() {
 
-  const { selectEng, selectEsp} = useContext(LanguageContext)
+  const {clicked, selectEng, selectEsp} = useContext(LanguageContext)
+
 
     return (
     <div className="switch">
-            <button className="on" onClick={selectEng}> 
-               English
+            <button className={clicked ? 'off' : 'on'} onClick={selectEsp}> 
+            Español
            </button>
 
-            <button className='off' onClick={selectEsp}>
-               Español
+            <button className={clicked ? 'on' : 'off'} onClick={selectEng}>
+            English
            </button>
     </div>
     )
