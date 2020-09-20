@@ -24,11 +24,3 @@ const Nav = () => {
 }
 
 export default Nav
-
-
-/*
-  <li className="link"><a href="#experience">EXPERIENCE</a></li>
-                <li className="link"><a href="#education">EDUCATION</a></li>
-                <li className="link"><a href="#skills">SKILLS</a></li>
-                <li className="link"><a href="#interests">INTERESTS</a></li>
-*/
