@@ -1,16 +1,14 @@
-[
-    {
+{
+   "about": {
         "id": "perfil",
         "name": "Angel Rosales",
         "title": "Full-stack developer",
         "addrese": "Aristobulo del valle 1013, Buenos Aires",
         "phone": "+54 112044586",
         "email":"angelrosmend@gmail.com",
-        "about": "Desarrollador web adepto en variedad de habilidades relacionadas en tecnologias JavaScript tales como ReactJS, Vue, NodeJS, Express y MongoDB."
+        "description": "Desarrollador web adepto en variedad de habilidades relacionadas en tecnologias JavaScript tales como ReactJS, Vue, NodeJS, Express y MongoDB."
     },
-    {
-        "id":"experincia",
-        "experiences":[
+    "experiences":[
             {
                 "id":1,
                 "title":"Full-Stack developer - Freelance",
@@ -27,11 +25,8 @@
                 "end": "Mayo 2020",
                 "description": "En esta startup, la tarea principal era el desarrollo de la interfaz de usuario implementando la metodologia SPA(Single page Application) haciendo uso de la libreria de codigo de JavaScript ReactJS, brindando una solución adecuada y actualizada para cada proyecto."
             }
-        ]
-    },
-    {
-        "id":"educacion",
-        "studies":[
+        ],
+        "education":[
             {
                 "id":1,
                 "title":"Profssional Full-Stack developer",
@@ -60,14 +55,21 @@
                 "description": "Estudios sobre los aspectos físicos y las manifestaciones sociales y culturales de las comunidades humanas."
             }
 
-        ]
-    },
-    {
-        "id":"Habilidades"
-    },
-    {
-        "id":"Intereses",
+        ],
+   "interests":[
+       {
+        "id": 1,
         "title": "Artes",
         "description":"De niño siempre senti gran afición por la musica y la pintura, siendo actividades que practico en tiempo libre, la habilidad de dibujo y pintura me ha permitido un buen desempeño en el area de desarrollo web front-end, aplicando conocimintos de diseño o teoria del color, haciendo que los proyectos sean intuitivos y agradables a la vista del usuario"
-    }
-]
+       }
+    ],
+    "navlinks": [
+        {"id": "perfil"},
+        {"id": "experiencia"},
+        {"id": "educacion"},
+        {"id": "conocimientos"},
+        {"id": "intereses"}
+    ]
+}
+
+

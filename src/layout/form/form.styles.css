@@ -24,6 +24,7 @@ h1{
     letter-spacing: 5px;
     font-family: 'Oswald', sans-serif;
     color: var(--mainBlack);
+    text-transform: uppercase;
 
 }
 .info h5{

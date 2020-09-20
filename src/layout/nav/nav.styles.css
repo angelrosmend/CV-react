@@ -35,16 +35,18 @@ li{
     list-style: none;
     margin: auto;
 }
-.link a{
+.link {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 3px;
     text-decoration: none;
     color: var(--mainWhite);
     font-size: 1rem;
-    margin: 2.5rem 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+
 }
 
-.link a:hover{
+.link:hover{
     color: var(--mainGrey);
 
 }
