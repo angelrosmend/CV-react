@@ -11,7 +11,7 @@ const Nav = () => {
     return (
         <div className='nav'>
             <figure className='photo'>
-                <img src={photo}/>
+                <img alt="" src={photo}/>
             </figure>
             <ul className='links'>
                {navlinks.map( navlink => {

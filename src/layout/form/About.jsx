@@ -19,16 +19,16 @@ function About(props) {
 
             <ul className="contact">
                 <li className="icon">
-                    <a className="contact-icon" href="https://www.linkedin.com/in/angelrosmend" target='_blank' ><i  className="fab fa-linkedin-in"></i></a>
+                    <a className="contact-icon" href="https://www.linkedin.com/in/angelrosmend" target='_blank' rel="noopener noreferrer" ><i  className="fab fa-linkedin-in"></i></a>
                 </li>
                 <li className="icon">
-                <a a className="contact-icon" href="https://github.com/angelrosmend" target='_blank'><i className="fab fa-github"></i></a>
+                <a className="contact-icon" href="https://github.com/angelrosmend" target='_blank' rel="noopener noreferrer"><i className="fab fa-github"></i></a>
                 </li>
                 <li className="icon">
-                    <a className="contact-icon" href="https://gitlab.com/angelrosmend" target='_blank'><i className="fab fa-gitlab"></i></a>
+                    <a className="contact-icon" href="https://gitlab.com/angelrosmend" target='_blank' rel="noopener noreferrer"><i className="fab fa-gitlab"></i></a>
                 </li>
                 <li className="icon">
-                <a className="contact-icon" href="https://www.instagram.com/angelrosmend" target='_blank'><i className="fab fa-instagram"></i></a>
+                <a className="contact-icon" href="https://www.instagram.com/angelrosmend" target='_blank' rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
                 </li>
             </ul>
         </div>

@@ -1,6 +1,5 @@
 {
    "about": {
-        "id": "perfil",
         "name": "Angel Rosales",
         "title": "Full-stack developer",
         "addrese": "Aristobulo del valle 1013, Buenos Aires",
@@ -71,5 +70,3 @@
         {"id": "intereses"}
     ]
 }
-
-

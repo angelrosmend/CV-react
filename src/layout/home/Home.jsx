@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import './home.styles.css'
 import Nav from '../nav/Nav'
 import Form from '../form/Form'

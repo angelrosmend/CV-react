@@ -17,9 +17,9 @@
     flex: 1.5;
 }
 .photo img{
-    width: 175px;
+    width: 50%;
     border-radius: 50%;
-    border: 7px solid var(--mainGrey);
+    border: 0.5rem solid var(--mainGrey);
     margin: auto;
 }
 .links{
@@ -29,7 +29,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin-bottom: 5rem;
+    margin-bottom: 10vh;
 }
 li{
     list-style: none;
@@ -37,13 +37,12 @@ li{
 }
 .link a{
     font-family: 'Oswald', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
     text-decoration: none;
     color: var(--mainWhite);
     font-size: 1rem;
     text-transform: uppercase;
     cursor: pointer;
-
 }
 
 .link a:hover{
@@ -51,3 +50,12 @@ li{
 
 }
 
+
+@media screen and (max-width: 600px) {
+    .link a {
+        font-size: 0.5rem;
+    }
+    .photo img{
+        border: 0.2rem;
+    }
+  }
