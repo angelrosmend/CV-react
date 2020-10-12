@@ -10,12 +10,13 @@ button{
     width: 50%;
     border: none;
     font-weight: bold;
-    padding: 10%;
+    padding: 7% 10%;
     text-transform: uppercase;
     cursor: pointer;
 }
 .on{
     background: var(--mainWhite);
+    height: inherit;
     color: var(--mainBlack);
 }
 
@@ -31,6 +32,6 @@ button{
     }
     .on, .off {
         font-size: 5px;
-        text-align: center;
+        height: 1.6rem;
     }
   }
