@@ -29,6 +29,7 @@ button{
 @media screen and (max-width: 600px) {
     .switch{
         width: 70%;
+        margin-top: 10vh;
     }
     .on, .off {
         font-size: 5px;

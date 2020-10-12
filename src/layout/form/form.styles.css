@@ -15,8 +15,7 @@
 .about, .experience, .education , .skills, .interests{
     width: 100%;
     flex: 1;
-    padding: 5vh 10vh;
-
+    padding: 5vw 10vw;
 }
 
 h1{
@@ -96,6 +95,13 @@ h5{
 
 
 @media screen and (max-width: 600px) {
+    .form-wrapper{
+        max-width: 70%;
+    }
+
+    .about, .experience, .education , .skills, .interests{
+        padding: 2vw 5vw;
+    }
     h4, .info .box h5, .skills-icon i, .contact-icon i{
       font-size: inherit;
     }

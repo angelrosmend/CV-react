@@ -52,10 +52,20 @@ li{
 
 
 @media screen and (max-width: 600px) {
+
+    nav{
+        max-width: 30%;
+    }
+    .links{
+        margin-bottom: 10vh;
+    }
     .link a {
         font-size: 0.5rem;
     }
     .photo img{
         border: 0.2rem;
+    }
+    .photo{
+        width: 30vw
     }
   }
