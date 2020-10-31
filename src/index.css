@@ -4,6 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+bg-white
 :root{
   --grdWhite: linear-gradient(45deg, rgb(201, 201, 201) 35%, rgb(238, 238, 238));
   --grdBlack: linear-gradient(45deg, rgb(22, 20, 20), rgb(34, 29, 29)60%, rgb(59, 58, 58));;
