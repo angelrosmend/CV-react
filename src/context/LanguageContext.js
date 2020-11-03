@@ -4,7 +4,6 @@ import es from '../languages/es.json'
 
 export const LanguageContext = createContext()
 
-
 export const LanguageProvider = (props) => {
     const [language, setLanguage] = useState(es)
     const [clicked, setClicked] = useState(false)
