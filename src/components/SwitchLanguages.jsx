@@ -3,8 +3,6 @@ import LanguageContext from '../context/LanguageContext'
 import './switch.styles.css'
 
 function SwitchLanguages() {
-
-  
   const {clicked, selectEng, selectEsp} = useContext(LanguageContext)
     return (
     <div className="switch">
