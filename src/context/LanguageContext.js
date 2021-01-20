@@ -23,8 +23,6 @@ export const LanguageProvider = (props) => {
             {props.children}
         </LanguageContext.Provider>
     )
-    
-
 }
 
 
